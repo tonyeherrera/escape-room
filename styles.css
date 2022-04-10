@@ -1,0 +1,90 @@
+body{
+    max-width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.9966e5ceab254daf425de437f5305c8d?rik=y7dzco%2b2%2f%2fdVow&pid=ImgRaw&r=0);
+    background-size:auto;
+    background-size: 100%;
+    
+}
+.header-container{
+    font-size: 400%;
+    text-align:center;
+    margin-top: 2%;
+    color: white;
+    background-color:rgba( 0, 0, 0, 75%);
+    width: 60%;
+    margin: auto;
+    padding: auto;   
+    
+}
+
+.body-header{
+    text-align:center;
+    width: fit-content;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;   
+    color: rgb(28, 15, 15);
+    background-color:rgba(71, 71, 74, 0.25);
+    font-size: 2rem;
+    border:10px,solid, rgb(25, 76, 59)
+    
+}
+
+.content{
+    text-align:center;
+    width: fit-content;
+    margin: auto;
+    padding: auto;   
+    color: white;
+    font-size: 1.5rem;
+    size: 80%;
+}
+@media screen and (max-width: 1280px){ #enter{
+    font-size:3rem;
+    border-style: ridge;
+    border-color:rgba(10, 49, 30, .75);
+    border-width: 20px;
+    background-color:rgba(81, 113, 97, 0.724);
+    color:rgba(5, 9, 7, 0.899);
+}}
+
+@media screen and (min-width: 1281px){#enter{
+    font-size:3rem;
+    border-style: ridge;
+    border-color:rgba(77, 83, 80, 0);
+    border-width: 20px;
+    background-color:rgba(77,83,80,0);
+    color:rgba(77,83,80,0);
+}
+
+#enter:hover{
+    font-size:3rem;
+    border-style: ridge;
+    border-color:rgba(10, 49, 30, .75);
+    border-width: 20px;
+    background-color:rgba(81, 113, 97, 0.724);
+    color:rgba(5, 9, 7, 0.899);
+    border-radius: 20%;
+}}
+
+.inner-content{
+    text-align:center;
+    width: 50%;
+    margin: auto;
+    padding: 2%;   
+    color: white;
+    background-color:rgba(71, 71, 74, .75);
+    font-size: 1.5rem;
+}
+.buttons{
+    margin:10px;
+    border-style: ridge;
+    border-color:rgba(10, 49, 30, .75);
+    border-width: 10px;
+    border-radius: 20%;
+    background-color:rgba(81, 100, 91, 0.724);
+    color:rgba(5, 9, 7, 0.899);
+    font-size: 1.5rem;
+    
+}
