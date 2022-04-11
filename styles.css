@@ -74,7 +74,7 @@ body{
     margin: auto;
     padding: 2%;   
     color: white;
-    background-color:rgba(71, 71, 74, .75);
+    background-color:rgba(71, 71, 74, .85);
     font-size: 1.5rem;
 }
 .buttons{
@@ -87,4 +87,26 @@ body{
     color:rgba(5, 9, 7, 0.899);
     font-size: 1.5rem;
     
+}
+
+.input{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2%;
+    width: 5%;
+    background-color:rgba(81, 100, 91, 0.724) ;
+
+}
+
+#drawerCodeTitle{
+    font-size: 3rem;
+    color: red;
+    text-transform: capitalize;
+    background-color:rgba(23, 39, 31, 0.94);
+    text-align:center;
+    width: 50%;
+    margin: auto;
+    padding: 2%; 
+  
 }
